@@ -138,3 +138,7 @@ Each board provides 8 solenoid valve connectors, and the current design supports
 This is because the data pin connects to the serial input of shift register.
 On Board 1, the shift register receives data from the Arduino directly.
 For the Board 2-n, their shift registers must have its serial input connected to the serial output of board right beneath it.
+
+<img src="https://github.com/user-attachments/assets/c29f8954-5e7a-43b3-8289-7cb6ce2b5e1a" height="300">
+
+Additionally, the bottom most board (the picture is upside down) must be connected to the arduino through the 5V and GND through holes.
